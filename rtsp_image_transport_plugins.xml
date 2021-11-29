@@ -1,0 +1,8 @@
+<library path="librtsp_image_transport">
+    <class name="image_transport/rtsp_pub" type="rtsp_image_transport::PublisherPlugin" base_class_type="image_transport::PublisherPlugin">
+        <description>Publishes a Real-Time Streaming Protocol (RTSP) video stream</description>
+    </class>
+    <class name="image_transport/rtsp_sub" type="rtsp_image_transport::SubscriberPlugin" base_class_type="image_transport::SubscriberPlugin">
+        <description>Decodes a Real-Time Streaming Protocol (RTSP) video stream</description>
+    </class>
+</library>
