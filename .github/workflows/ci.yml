@@ -11,6 +11,7 @@ jobs:
           - {ROS_DISTRO: noetic}
     env:
       CATKIN_LINT: 'true'
+      CATKIN_LINT_ARGS: '--ignore unknown_package'
       ROSDEP_SKIP_KEYS: 'live555'
       AFTER_INSTALL_TARGET_DEPENDENCIES: 'apt-get install -y liblivemedia-dev'
     runs-on: ubuntu-latest
