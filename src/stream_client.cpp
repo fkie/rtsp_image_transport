@@ -319,6 +319,7 @@ void Live555Client::setupNextSubsession(Live555Client* c) noexcept
                                                "media subsession with "
                                             << videoCodecName(codec)
                                             << " video");
+                        setupNextSubsession(c);
                     }
                 }
                 else
